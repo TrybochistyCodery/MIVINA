@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'DateTime'
+  ClientHeight = 147
+  ClientWidth = 476
+  Color = clMoneyGreen
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 77
+    Height = 91
+    Align = alLeft
+    Alignment = taCenter
+    Caption = 'Label1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitHeight = 33
+  end
+  object Button1: TButton
+    Left = 0
+    Top = 91
+    Width = 476
+    Height = 56
+    Align = alBottom
+    Caption = 'Start/Stop'
+    TabOrder = 0
+    OnClick = Button1Click
+    ExplicitTop = 88
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 320
+    Top = 9
+  end
+end
