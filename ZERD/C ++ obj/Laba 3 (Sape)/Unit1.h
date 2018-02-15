@@ -16,8 +16,13 @@ __published:	// IDE-managed Components
 	TShape *Shape1;
 	TColorGrid *ColorGrid1;
 	TComboBox *ComboBox1;
-	void __fastcall FormCreate(TObject *Sender);
-	void __fastcall ColorGrid1Change(TObject *Sender);
+	TTimer *Timer1;
+	void __fastcall ColorGrid1MouseMove(TObject *Sender, TShiftState Shift, int X, int Y);
+	void __fastcall ColorGrid1Click(TObject *Sender);
+	void __fastcall ComboBox1Change(TObject *Sender);
+	void __fastcall Timer1Timer(TObject *Sender);
+
+
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

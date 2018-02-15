@@ -1,9 +1,11 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 576
-  ClientWidth = 710
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #1060#1080#1075#1091#1088#1099
+  ClientHeight = 650
+  ClientWidth = 882
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,30 +13,51 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Shape1: TShape
-    Left = 40
-    Top = 24
-    Width = 169
-    Height = 185
+    Left = 0
+    Top = 0
+    Width = 433
+    Height = 640
+    Pen.Width = 15
+    Visible = False
   end
   object ColorGrid1: TColorGrid
-    Left = 56
-    Top = 256
-    Width = 100
-    Height = 100
+    Left = 453
+    Top = 48
+    Width = 416
+    Height = 592
     BackgroundIndex = 15
     TabOrder = 0
-    OnChange = ColorGrid1Change
+    OnClick = ColorGrid1Click
+    OnMouseMove = ColorGrid1MouseMove
   end
   object ComboBox1: TComboBox
-    Left = 240
-    Top = 24
-    Width = 241
-    Height = 21
+    Left = 453
+    Top = 0
+    Width = 419
+    Height = 32
+    Style = csDropDownList
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
-    Text = #1042#1099#1073#1086#1088' '#1092#1080#1075#1091#1088#1099
+    OnChange = ComboBox1Change
+    Items.Strings = (
+      #1050#1074#1072#1076#1088#1072#1090
+      #1050#1074#1072#1076#1088#1072#1090' '#1089' '#1079#1072#1082#1088#1091#1075#1083#1077#1085#1085#1099#1084#1080' '#1082#1088#1072#1103#1084#1080
+      #1055#1088#1103#1084#1086#1091#1075#1086#1083#1100#1085#1080#1082
+      #1055#1088#1103#1084#1086#1091#1075#1086#1083#1100#1085#1080#1082' '#1089' '#1079#1072#1082#1088#1091#1075#1083#1105#1085#1085#1099#1084#1080' '#1082#1088#1072#1103#1084#1080
+      #1054#1082#1088#1091#1078#1085#1086#1089#1090#1100
+      #1069#1083#1083#1080#1087#1089)
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 840
+    Top = 584
   end
 end
