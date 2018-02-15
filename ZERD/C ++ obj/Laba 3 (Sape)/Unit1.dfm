@@ -4,7 +4,7 @@ object Form1: TForm1
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = #1060#1080#1075#1091#1088#1099
-  ClientHeight = 650
+  ClientHeight = 709
   ClientWidth = 882
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -16,26 +16,26 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Shape1: TShape
-    Left = 0
-    Top = 0
-    Width = 433
-    Height = 640
+    Left = 8
+    Top = 8
+    Width = 441
+    Height = 693
     Pen.Width = 15
     Visible = False
   end
   object ColorGrid1: TColorGrid
-    Left = 453
-    Top = 48
+    Left = 458
+    Top = 61
     Width = 416
-    Height = 592
+    Height = 640
     BackgroundIndex = 15
     TabOrder = 0
     OnClick = ColorGrid1Click
     OnMouseMove = ColorGrid1MouseMove
   end
   object ComboBox1: TComboBox
-    Left = 453
-    Top = 0
+    Left = 455
+    Top = 10
     Width = 419
     Height = 32
     Style = csDropDownList
@@ -46,6 +46,7 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 1
+    TextHint = #1042#1099#1073#1077#1088#1080#1090#1077' '#1092#1080#1075#1091#1088#1091
     OnChange = ComboBox1Change
     Items.Strings = (
       #1050#1074#1072#1076#1088#1072#1090
