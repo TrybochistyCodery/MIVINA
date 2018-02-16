@@ -1,0 +1,7 @@
+C:\Users\zerd\source\repos\IFFF\IFFF\bin\Debug\IFFF.exe.config
+C:\Users\zerd\source\repos\IFFF\IFFF\bin\Debug\IFFF.exe
+C:\Users\zerd\source\repos\IFFF\IFFF\bin\Debug\IFFF.pdb
+C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.csprojResolveAssemblyReference.cache
+C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.csproj.CoreCompileInputs.cache
+C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.exe
+C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.pdb
