@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018.02.20 22:59:57.779,=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018.02.20 23:00:07.237,=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018.02.20 23:38:17.961,D:\GITHUB\MIVINA\ZERD\C ++ obj\Laba 4 (Reg)\Unit1.dfm=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018.02.20 23:38:17.961,D:\GITHUB\MIVINA\ZERD\C ++ obj\Laba 4 (Reg)\Unit1.cpp=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018.02.20 23:38:17.961,D:\GITHUB\MIVINA\ZERD\C ++ obj\Laba 4 (Reg)\Unit1.h=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2018.02.20 23:38:20.313,D:\GITHUB\MIVINA\ZERD\C ++ obj\Laba 4 (Reg)\Project1PCH1.h=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018.02.20 23:38:23.731,D:\GITHUB\MIVINA\ZERD\C ++ obj\Laba 4 (Reg)\Project1.cbproj=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
