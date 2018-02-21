@@ -1,0 +1,84 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+        Panel3 -> Caption="Служу украине";
+        Panel3 -> Font -> Size=16;
+        Panel1 -> Color = clYellow;
+        Panel5 -> Color = clBtnFace;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+        ShowMessage("Сысоев Николай П-4-16");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+        if  (Panel5 -> Top==0) {
+             Panel1 -> Top=468;
+             Panel3 -> Top=552;
+             Panel5 -> Top=636;
+        }
+              Panel1  -> Top-=5;
+              Panel3  -> Top-=5;
+              Panel5 ->  Top-=5;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+if  (Panel5 -> Top<552) {
+              Panel1  -> Top+=5;
+              Panel3  -> Top+=5;
+              Panel5 ->  Top+=5;
+        }
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button6Click(TObject *Sender)
+{
+               if  (Panel5 -> Left>0) {
+              Panel1  -> Left-=5;
+              Panel3  -> Left-=5;
+              Panel5 ->  Left-=5;
+              }
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Button7Click(TObject *Sender)
+{
+if  (Panel5 -> Left<622) {
+              Panel1  -> Left+=5;
+              Panel3  -> Left+=5;
+              Panel5 ->  Left+=5;
+              }
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button8Click(TObject *Sender)
+{
+        Form1->Close();
+}
+//---------------------------------------------------------------------------
+
+
+
