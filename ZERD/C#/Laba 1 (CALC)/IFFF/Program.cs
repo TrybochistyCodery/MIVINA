@@ -78,6 +78,9 @@ namespace IFFF
                         cInt = Convert.ToInt32(Console.ReadLine());
                         KvadratnoeYravnenie(aInt, bInt, cInt);
                         break;
+                    default:
+                        Console.WriteLine("Ошибка");
+                        break;
 
                 }
                 Console.ReadKey();
@@ -113,10 +116,11 @@ namespace IFFF
             if(d>0 || d == 0)
             {
                 double x1 = (-b + Math.Sqrt(d)) / (2 * a);
-                double x2 = (-b + Math.Sqrt(d)) / (2 * a);
+                double x2 = (-b - Math.Sqrt(d)) / (2 * a);
                 Console.WriteLine($"X1 = {x1} \n" +
-                    $"X2 = {x2}\n" +
-                    $"D = {d}");
+                                  $"X2 = {x2}\n" +
+                                  $"D = {d}");
+
             }
             else
             {

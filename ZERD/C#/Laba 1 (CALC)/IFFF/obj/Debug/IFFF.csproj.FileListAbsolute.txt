@@ -5,3 +5,10 @@ C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.csprojResolveAssemblyReferen
 C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.csproj.CoreCompileInputs.cache
 C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.exe
 C:\Users\zerd\source\repos\IFFF\IFFF\obj\Debug\IFFF.pdb
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\bin\Debug\IFFF.exe.config
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\bin\Debug\IFFF.exe
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\bin\Debug\IFFF.pdb
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\obj\Debug\IFFF.csprojResolveAssemblyReference.cache
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\obj\Debug\IFFF.csproj.CoreCompileInputs.cache
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\obj\Debug\IFFF.exe
+C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C#\Laba 1 (CALC)\IFFF\obj\Debug\IFFF.pdb
