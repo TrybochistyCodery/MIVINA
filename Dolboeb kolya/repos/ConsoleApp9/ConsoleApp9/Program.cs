@@ -11,7 +11,6 @@ namespace ConsoleApp9
         static void Main(string[] args)
         {
             int[] x = new int[11];
-            
             int min, max;
             min = 0;
             max = 0;
@@ -19,7 +18,7 @@ namespace ConsoleApp9
             {
                 x[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (int i=0;i<11; i++)
+            for (int i=0;i<10; i++)
             {
                 if (x[min] > x[i])
                 {
@@ -30,8 +29,8 @@ namespace ConsoleApp9
                     max = i;
                 }
             }
-            Console.WriteLine(min);
-            Console.WriteLine(max);
+            Console.WriteLine(x[min]);
+            Console.WriteLine(x[max]);
             Console.ReadKey();
         }
     }
