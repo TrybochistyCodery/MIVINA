@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018.02.22 12:00:48.738,=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018.02.22 12:00:53.808,=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018.02.22 12:53:40.523,C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C ++ obj\Laba 5 (calc)\Unit1.cpp=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018.02.22 12:53:40.523,C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C ++ obj\Laba 5 (calc)\Unit1.dfm=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018.02.22 12:53:40.523,C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C ++ obj\Laba 5 (calc)\Unit1.h=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2018.02.22 12:53:41.313,C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C ++ obj\Laba 5 (calc)\Project1PCH1.h=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018.02.22 12:53:42.047,C:\Users\zerd\Documents\GitHub\MIVINA\ZERD\C ++ obj\Laba 5 (calc)\Project1.cbproj=C:\Users\zerd\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
