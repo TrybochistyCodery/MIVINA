@@ -64,13 +64,7 @@ namespace ConsoleApp6
                 t = a[i];
                 r = rand.Next(n);
                 a[i] = a[r];
-                a[r] = t; /* 
-for (i=0; i < n; i++) 
-{ 
-Console.Write(a[i]); 
-Console.Write(" "); 
-} 
-Console.WriteLine(""); */
+                a[r] = t;
             }
         }
     }
